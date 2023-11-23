@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Oswald&family=Playfair+Display:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Agbalumo', Oswald;
+    background-color: #f2f2f2;
+}
+.centraliza-container{
+    margin: auto;
+}
+div{
+    width: 85%;
+    background-color: #fff;
+    padding: 3em;
+    box-shadow: 0 0 2.2em rgba(0,0,0, 2.);
+}
+header{
+    text-align: center;
+}
+header ul{
+    margin-top: 1.5em;
+}
+header li{
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Oswald';
+    font-size: 2rem;
+    margin-right: 2em;
+
+}
+header li:last-child{margin-right: 0;}
+header a{
+    text-decoration: none; color: #d85b53; padding: .8em;
+}
+p{
+    font-size: larger;
+}
+.imagem {
+    width: 384px; /* Define a largura da segunda imagem */
+    height: 233,3333333333333px; /* Define a altura da segunda imagem */
+}
+main{
+    margin-top: 4em;
+}
+article{
+    width: 95%;
+}
+article img{
+    width: 55%;
+    float: right;
+    margin: 0 0 2.5em 2em;
+    box-shadow: 5px 5px 15px rgba(0,0,0, 0.39);
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 160%;
+    margin-bottom: 1em;
+
+}
+h2{
+    font-size: 5.rem;
+    margin-bottom: .72em;
+    font-family: "Oswald";
+    color: #d85b53;
+}
+hr{
+    width: 85%;
+    margin: 4em auto;
+    border: 2px solid rgba(216,91,83,.25);
+    box-shadow: 0px 1px 6px rgba(0, 0,0,.16);
+}
+img.direita{
+    float: left; 
+    margin-left: 0;
+    margin-right: 2.5em;
+}
+.texto-direita{
+    text-align: right;
+}
